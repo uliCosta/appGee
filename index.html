@@ -13,6 +13,27 @@
     <button id="showMap">Exibir Mapa</button>
     <div id="mapContainer" style="height: 600px;"></div> <!-- Onde o mapa será exibido -->
   </div>
+  
+  <body>
+  <div id="header">
+    <!-- Botão de login -->
+	<button id="signInButton" onclick="handleSignInClick()" style="display:none;">
+	  Login com Google
+	</button>
+
+	<!-- Botão de logout -->
+	<button onclick="handleSignOutClick()">
+	  Logout
+	</button>
+    <button id="signInButton" onclick="handleSignInClick()" style="display:none;">
+      Login com Google
+    </button>
+    <button onclick="handleSignOutClick()">
+      Logout
+    </button>
+  </div>
+  <div id="mapContainer" style="height: 600px;"></div> <!-- Contêiner do mapa -->
+</body>
 
   <script src="app.js"></script> <!-- Link para o JavaScript -->
 </body>
